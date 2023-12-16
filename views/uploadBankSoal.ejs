@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Tambah Ujian</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Upload Bank Soal File</h2>
+  <form action="http://localhost:3000/upload-bank-soal" method="post" enctype="multipart/form-data">
+    <label for="bankSoalFile">Select Bank Soal File (XLSX):</label>
+    <input type="file" name="bankSoalFile" id="bankSoalFile" accept=".xlsx" required>
+    <br>
+    <button type="submit">Upload File</button>
+  </form>
+</body>
+</html>
